@@ -1,0 +1,79 @@
+/*START STYLE HOME.PHP*/
+.img_user {
+  margin: auto;
+}
+.margin_top {
+  margin-top: 15px;
+}
+.system_var {
+  float: right;
+  font-size: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  color: black;
+}
+.rowtop {
+  padding: 20px 0 20px 0;
+}
+.width_input {
+  width: 250px;
+}
+.width_button {
+  width: 150px;
+}
+/*END STYLE HOME.PHP*/
+
+/*START STYLE NAV*/
+#rowtop {
+  padding: 20px 0 20px 0;
+}
+nav .navbar-brand {
+  margin-right: 50px;
+}
+a[href="logout.php"] {
+  color: rgba(255,255,255,.5); 
+  text-decoration: none;
+}
+a[href="logout.php"]:hover {
+  color: rgba(255,255,255,.75);
+}
+/*END STYLE NAV*/
+
+/*START STYLE TABLE*/
+#nbperpage {
+  width: 45px;
+}
+th a {
+  float: right;
+}
+
+/*END STYLE TABLE*/
+
+/*START STYLE LOGIN*/
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*END STYLE LOGIN*/
