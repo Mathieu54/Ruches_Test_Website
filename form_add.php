@@ -90,7 +90,7 @@ if(isset($_SESSION['user_session']) && $_SESSION['user_session'] != "") {
                     <input type="number" class="form-control" id="longitude_add" placeholder="Exemple 68.547851">
                 </div>
                 <button type="submit" class="btn btn-success" id="createBeehives">Créer</button>
-                <button type="reset" class="btn btn-danger" id="annulerBeehives">Annuler</button>
+                <button type="reset" class="btn btn-danger" id="cancelBeehives">Annuler</button>
             </div>
         </main>
         <script src="js/library/bootstrap.min.js"></script>

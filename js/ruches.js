@@ -2,7 +2,7 @@ let get_ID = null;
 let searchtext = "";
 $(document).ready(function() { 
     
-    $("#annulerBeehives").click(function() { //Canceled the page of creation or modification
+    $("#cancelBeehives").click(function() { //Canceled the page of creation or modification
         window.location = "./beehives.php";    //Redirect User
     });
 
