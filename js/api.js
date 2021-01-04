@@ -77,7 +77,7 @@ async function addBeehives(){
     return await new Promise((resolve, reject) => {
         $.ajax({
             type: "POST",
-            url: "./api/addBeehives?name=" + document.getElementById('name_add').value + "&latitude=" + parseFloat(document.getElementById('latitude_add').value) + "&longitude=" + parseFloat(document.getElementById('longitude_add').value),
+            url: "./api/addBeehives.php?name=" + document.getElementById('name_add').value + "&latitude=" + parseFloat(document.getElementById('latitude_add').value) + "&longitude=" + parseFloat(document.getElementById('longitude_add').value),
             contentType: "application/json",
             dataType: "json",
             success: function(response) {
@@ -95,7 +95,7 @@ async function updateBeehives(id){
     return await new Promise((resolve, reject) => {
         $.ajax({
             type: "POST",
-            url: "./api/updateBeehives?id=" + id + "&name=" + document.getElementById('name_update').value + "&latitude=" + document.getElementById('latitude_update').value + "&longitude=" + document.getElementById('longitude_update').value,
+            url: "./api/updateBeehives.php?id=" + id + "&name=" + document.getElementById('name_update').value + "&latitude=" + document.getElementById('latitude_update').value + "&longitude=" + document.getElementById('longitude_update').value,
             contentType: "application/json",
             dataType: "json",
             success: function(response) {
@@ -113,7 +113,7 @@ async function deleteBeehives(id){
     return await new Promise((resolve, reject) => {
         $.ajax({
             type: "POST",
-            url: "./api/deleteBeehives?id=" + id,
+            url: "./api/deleteBeehives.php?id=" + id,
             contentType: "application/json",
             dataType: "json",
             success: function(response) {
